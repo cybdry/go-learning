@@ -10,8 +10,8 @@ import (
 	"os"
 )
 
-// PipesExample helps give some more examples of using io interfaces
-func PipesExample() error {
+// PipeExample helps give some more examples of using io interfaces
+func PipeExample() error {
 	// the pipe reader and pipe write implement io.Reader and io.Writer
 
 	r, w := io.Pipe()
